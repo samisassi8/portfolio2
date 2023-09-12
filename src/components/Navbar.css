@@ -1,0 +1,40 @@
+nav {
+  display: flex;
+  background-color: #333;
+  width: 100vw;
+  height: 20vh;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  height: 50%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  ul {
+    flex-direction: column;
+  }
+
+  li {
+    margin: 10px 0;
+  }
+}
